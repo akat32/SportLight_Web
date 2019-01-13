@@ -1,0 +1,53 @@
+.bottomBar .bar {
+    width: 100vw;
+    height: 9vh;
+    background-color: #ff6f61;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    border-top: solid 0.3vh #ffb5ae;
+    box-sizing: border-box;
+}
+
+.bottomBar .bar > div {
+    width: 20vw;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+
+}
+.timeLineIcon {
+    background-repeat: no-repeat;
+    background-image: url('../assets/speaker.png');
+    background-size: contain;
+    width: 3.3vh;
+    height: 3.3vh;
+    opacity: 0.5;
+}
+.pageIcon {
+    background-repeat: no-repeat;
+    background-image: url('../assets/usera.png');
+    background-size: contain;
+    width: 3.3vh;
+    height: 3.3vh;
+    opacity: 0.5;
+}
+.notifiIcon {
+    background-repeat: no-repeat;
+    background-image: url('../assets/notifications-button.png');
+    background-size: contain;
+    width: 3.3vh;
+    height: 3.3vh;
+    opacity: 0.5;
+}
+.settingIcon {
+    background-repeat: no-repeat;
+    background-image: url('../assets/settings-work-tool.png');
+    background-size: contain;
+    width: 3.3vh;
+    height: 3.3vh;
+    opacity: 0.5;
+}
